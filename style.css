@@ -1,0 +1,546 @@
+body {
+    
+    background: linear-gradient(to right, rgb(244, 2, 2), rgb(12, 12, 12));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    color: aliceblue;
+    background-color: rgb(7, 7, 7);
+
+}
+
+nav {
+    position: sticky;
+    padding: 15px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+
+}
+nav a{
+   
+    color: whitesmoke;
+}
+nav h2{
+ font-family: fantasy;
+}
+
+.head {
+    color: white;
+    padding: 50px;
+}
+
+.head div {
+    text-align: center;
+    justify-content: center;
+}
+
+.head b {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    background-color: red;
+}
+
+.head h1 {
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+.head span {
+
+    color: red;
+}
+
+.head h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.to{   
+    padding: 50px;
+ background-color: antiquewhite;
+ text-align: center;
+
+}
+
+
+.go {
+    gap: 50px;
+    display: flex;
+    justify-content: center; 
+}
+
+.go div {
+    text-align: center;   
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid rgb(193, 29, 29);
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(205, 207, 209);
+
+}
+.go span{
+    color: red;
+}
+.go div:hover{
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px gray;
+}
+.offer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.offer h1{
+font-size: 70px;
+font-weight: bold;
+}
+.offer span{    
+    color: red;
+}
+.location{
+    padding: 40px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+}
+.location h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.location span{
+    color: red;
+}
+.address{ 
+    color: whitesmoke;  
+    font-weight: bold; 
+    display: flex;
+    justify-content: space-around;
+}
+.address iframe{
+    width: 700px;
+    border-radius: 30px;
+}
+.address div{
+    text-align: center;
+    align-content: center;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: red;    
+}
+.address h2{
+    font-weight: bold;
+font-size: 50px;
+}
+.address a{
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(215, 121, 121);
+}
+.order{
+    display: flex;
+    padding: 70px;  
+    background-color: rgb(236, 234, 231);
+}
+.order span{
+    color: red;
+}
+.order h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+.order .no{
+    padding-left: 20px;
+    border: 1px solid rgb(201, 186, 186);
+    border-radius: 10px;
+    width: 600px;
+    background-color: rgb(241, 233, 222);
+}
+
+
+.order .WhatsApp{
+    height: 300px;
+    width: 500px;
+    align-content: center;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 20px;    
+    background-color: black;
+}
+.WhatsApp h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.WhatsApp a{
+    color: whitesmoke;
+    background-color: green;
+    padding: 10px;
+    height: 80px;
+    border-radius: 10px;
+}
+.snack{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: whitesmoke;
+    background-color: black;
+    padding: 30px;
+}
+.snack h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}.snack span{
+    color: red;
+}
+.last div{   
+    list-style-type: none;
+        align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+ div nav a {
+    text-decoration: none;
+}
+
+.navbtn{
+    padding: 15px;
+    border:none;
+    border-radius:12px ;
+}
+.navbtn:hover{
+    background: red;
+}
+
+
+
+/* Tablets */
+@media (max-width: 992px) {
+
+    nav {
+        padding: 15px 10px;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    nav h2 {
+        font-size: 25px;
+    }
+
+    .head {
+        padding: 40px 25px;
+    }
+
+    .head h1 {
+        font-size: 75px;
+    }
+
+    .head h3 {
+        font-size: 25px;
+    }
+
+    .go {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .go div {
+        width: 280px;
+    }
+
+    .offer h1 {
+        font-size: 55px;
+    }
+
+    .offer img,
+    .to img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .address {
+        gap: 30px;
+        align-items: center;
+    }
+
+    .address iframe {
+        width: 55%;
+        height: 400px;
+    }
+
+    .address div {
+        width: 40%;
+        height: 400px;
+    }
+
+    .address h2 {
+        font-size: 40px;
+    }
+
+    .order {
+        gap: 30px;
+        padding: 50px 30px;
+        align-items: center;
+    }
+
+    .order > div {
+        max-width: 50%;
+    }
+
+    .order h1 {
+        font-size: 55px;
+    }
+
+    .order .no {
+        width: 100%;
+    }
+
+    .order .WhatsApp {
+        width: 100%;
+        height: 280px;
+    }
+
+    .snack h3 {
+        font-size: 40px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
+    nav {
+        padding: 15px 10px;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    nav h2 {
+        font-size: 28px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .navbtn {
+        padding: 10px 20px;
+    }
+
+
+    /* Hero Section */
+    .head {
+        padding: 50px 15px;
+    }
+
+    .head h1 {
+        font-size: 50px;
+        line-height: 1.1;
+    }
+
+    .head h3 {
+        font-size: 22px;
+    }
+
+    .head p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .head p br {
+        display: none;
+    }
+
+    .head button {
+        margin: 5px !important;
+    }
+
+
+    /* Menu Info Cards */
+    .to {
+        padding: 35px 15px;
+    }
+
+    .go {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .go div {
+        width: 90%;
+        height: auto;
+        min-height: 90px;
+    }
+
+    .to img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px !important;
+    }
+
+
+    /* Offers */
+    .offer {
+        padding: 35px 15px;
+    }
+
+    .offer h1 {
+        font-size: 45px;
+    }
+
+    .offer img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px !important;
+    }
+
+
+    /* Location */
+    .location {
+        padding: 35px 15px;
+    }
+
+    .location h1 {
+        font-size: 45px;
+    }
+
+    .address {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .address iframe {
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .address div {
+        width: 100%;
+        height: 300px;
+    }
+
+    .address h2 {
+        font-size: 35px;
+    }
+
+
+    /* Order */
+    .order {
+        flex-direction: column;
+        padding: 45px 15px;
+        gap: 30px;
+    }
+
+    .order > div {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .order h1 {
+        font-size: 45px;
+        line-height: 1.1;
+    }
+
+    .order p br {
+        display: none;
+    }
+
+    .order .no {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    .order .WhatsApp {
+        width: 100%;
+        height: 250px;
+    }
+
+    .WhatsApp h2 {
+        font-size: 32px;
+    }
+
+
+    /* Footer */
+    .snack {
+        padding: 35px 15px;
+    }
+
+    .snack h3 {
+        font-size: 38px;
+    }
+
+    .snack a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+
+/* Very Small Mobile */
+@media (max-width: 400px) {
+
+    .head h1 {
+        font-size: 42px;
+    }
+
+    .head h3 {
+        font-size: 19px;
+    }
+
+    .offer h1,
+    .location h1 {
+        font-size: 38px;
+    }
+
+    .order h1 {
+        font-size: 38px;
+    }
+
+    .address h2 {
+        font-size: 30px;
+    }
+
+    .snack h3 {
+        font-size: 32px;
+    }
+}
